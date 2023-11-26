@@ -1,0 +1,14 @@
+{
+  "name": "@nextri-org/preset",
+  "version": "0.1.0",
+  "description": "Panda CSS preset for NEXTRI components",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src", "dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup --dts",
+    "build-fast": "tsup --no-dts",
+    "dev": "pnpm build-fast --watch"
+  }
+}

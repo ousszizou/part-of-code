@@ -1,0 +1,33 @@
+{
+  "name": "@nextri-org/dialog",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "prepare": "panda codegen",
+    "debug": "panda debug",
+    "build": "tsup --dts",
+    "build-fast": "tsup --no-dts",
+    "dev": "pnpm build-fast --watch",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@nextri-org/preset": "workspace:*",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2"
+  },
+  "devDependencies": {
+    "@storybook/react": "^7.2.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

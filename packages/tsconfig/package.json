@@ -1,0 +1,11 @@
+{
+  "name": "@nextri-org/tsconfig",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "files": [
+    "base.json",
+    "nextjs.json"
+  ]
+}

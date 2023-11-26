@@ -1,0 +1,31 @@
+{
+  "name": "@nextri-org/react",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup --dts",
+    "build-fast": "tsup --no-dts",
+    "dev": "pnpm build-fast --watch"
+  },
+  "dependencies": {
+    "@nextri-org/button": "workspace:*",
+    "@nextri-org/avatar": "workspace:*",
+    "@nextri-org/chip": "workspace:*",
+    "@nextri-org/alert": "workspace:*",
+    "@nextri-org/tooltip": "workspace:*",
+    "@nextri-org/dialog": "workspace:*",
+    "@nextri-org/navigation-menu": "workspace:*",
+    "@nextri-org/radio-group": "workspace:*",
+    "@nextri-org/label": "workspace:*",
+    "@nextri-org/form": "workspace:*",
+    "@nextri-org/checkbox": "workspace:*",
+    "@nextri-org/list": "workspace:*",
+    "@nextri-org/progress": "workspace:*"
+  }
+}
